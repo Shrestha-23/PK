@@ -1,0 +1,21 @@
+select * from component where SYSTEM_COMPONENT_ID='HD8'
+pc_deploy2_component 'PT-23465'
+pc_deploy4_productgroup 'PT-25742'
+-- new product 78598
+pc_deploy3_allproductoffer 'PT-23465' -- rules on wifi LAN products
+select * from component where NAME like '%LAN%' and SYSTEM_COMPONENT_TYPE=69
+
+update component set SYSTEM_COMPONENT_ID='ZD6',INFO_CHG_USER_NAME='PT-23465' where SYSTEM_COMPONENT_ID='HD7' --6251
+
+
+
+update component set SYSTEM_COMPONENT_ID='ZD7',INFO_CHG_USER_NAME='PT-23465' where SYSTEM_COMPONENT_ID='HD8' --6251
+
+
+update component set SYSTEM_COMPONENT_ID='ZD8',INFO_CHG_USER_NAME='PT-23465' where SYSTEM_COMPONENT_ID='HD9'
+
+
+
+
+
+     
